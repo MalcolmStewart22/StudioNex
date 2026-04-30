@@ -1,0 +1,12 @@
+.breadcrumb {
+  display: inline-block;
+  font-size: 11px;
+  color: var(--color-verdigris);
+  letter-spacing: 0.08em;
+  margin-bottom: var(--space-3);
+  transition: color 0.15s ease;
+}
+
+.breadcrumb:hover {
+  color: var(--color-verdigris-text);
+}

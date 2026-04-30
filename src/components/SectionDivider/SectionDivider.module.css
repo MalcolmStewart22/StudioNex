@@ -1,0 +1,20 @@
+.divider {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.label {
+  font-family: var(--font-serif);
+  font-size: 11px;
+  color: var(--color-verdigris);
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.line {
+  flex: 1;
+  height: 0.5px;
+  background: var(--color-verdigris-border);
+}

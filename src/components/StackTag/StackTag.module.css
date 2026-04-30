@@ -1,0 +1,8 @@
+.tag {
+  font-size: 11px;
+  padding: 3px 8px;
+  background: var(--color-copper-soft);
+  color: var(--color-copper-text);
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}

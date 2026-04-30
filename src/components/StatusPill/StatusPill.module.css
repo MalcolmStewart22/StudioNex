@@ -1,0 +1,20 @@
+.pill {
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  border: 0.5px solid transparent;
+  white-space: nowrap;
+}
+
+.live {
+  background: var(--color-copper);
+  color: var(--color-walnut);
+}
+
+.in-progress,
+.drafting {
+  color: var(--color-verdigris);
+  border-color: var(--color-verdigris-border-strong);
+}

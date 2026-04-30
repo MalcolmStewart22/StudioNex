@@ -1,0 +1,21 @@
+.callout {
+  background: var(--color-walnut);
+  border: 0.5px dashed var(--color-verdigris-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  margin-bottom: var(--space-8);
+}
+
+.label {
+  font-size: 11px;
+  color: var(--color-verdigris);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-2);
+}
+
+.body {
+  font-size: 13px;
+  color: var(--color-stone-warm);
+  line-height: 1.75;
+}

@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 0.5px solid var(--color-verdigris-border);
+  margin-bottom: var(--space-9);
+}
+
+.wordmark {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  font-family: var(--font-serif);
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  color: var(--color-bone);
+}
+
+.mark {
+  color: var(--color-copper);
+  font-size: 11px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  font-size: 12px;
+  color: var(--color-verdigris);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color 0.15s ease;
+}
+
+.link:hover {
+  color: var(--color-verdigris-text);
+}

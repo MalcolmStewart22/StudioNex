@@ -1,0 +1,42 @@
+.header {
+  margin-bottom: var(--space-8);
+}
+
+.title {
+  font-size: 28px;
+  color: var(--color-bone);
+  margin-bottom: var(--space-3);
+  line-height: 1.25;
+}
+
+.meta {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.date {
+  color: var(--color-shadow);
+}
+
+.separator {
+  color: var(--color-shadow);
+}
+
+.project {
+  color: var(--color-copper-text);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.body {
+  font-size: 14px;
+  color: var(--color-stone-warm);
+  line-height: 1.8;
+}
+
+.paragraph {
+  margin-bottom: var(--space-5);
+}
