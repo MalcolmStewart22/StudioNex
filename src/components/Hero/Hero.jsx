@@ -4,10 +4,10 @@ function Hero() {
   return (
     <section className={styles.hero}>
       <h1 className={styles.headline}>
-        Tools, toys, and the occasional <em className={styles.emphasis}>rabbit hole</em>.
+        Welcome to my workshop. <em className={styles.emphasis}>Some</em> of these work.
       </h1>
       <p className={styles.subhead}>
-        A small studio shipping browser-based things by Nex. Mostly tools for tabletop games and worldbuilding, occasionally something stranger.
+        Just a guy making browser-based tools for tabletop games, worldbuilding, and whatever else I've wandered into recently.
       </p>
     </section>
   )
