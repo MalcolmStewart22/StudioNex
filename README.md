@@ -1,16 +1,43 @@
-# React + Vite
+# Studio Nex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio and project hub. Hosts demos, planning notes, and devlog entries for browser-based tools and engineering experiments.
 
-Currently, two official plugins are available:
+**Live:** [studionex.dev](https://studionex.dev)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+Studio Nex is a small studio for browser-based tools, mostly for tabletop games and worldbuilding. This repository is the source of the studio's homepage, project pages, and devlog.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Stack
 
-## Expanding the ESLint configuration
+- React 18 + Vite
+- React Router for routing
+- CSS Modules for styling
+- Deployed to Azure Static Web Apps
+- DNS via Cloudflare
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+No UI framework, no CSS framework. Design tokens and styles are all hand-rolled — see `src/styles/tokens.css`.
+
+## Running locally
+
+```bash
+npm install
+npm run dev
+```
+
+The dev server runs at http://localhost:5173.
+
+## Project structure
+src/
+components/    Reusable UI pieces (TopNav, ProjectCard, etc.)
+pages/         Route-level page components
+data/          Project metadata and devlog entries
+styles/        Design tokens and base styles
+
+## Adding a project
+
+Project metadata lives in `src/data/projects.js`. Each project has a status (`Live`, `In Progress`, or `Drafting`) that drives its visual treatment on the homepage and project page.
+
+## Adding a devlog entry
+
+Devlog entries live in `src/data/devlog.js`. Entries are tied to a project via `projectSlug`. They appear on the devlog index page filterable by project.
